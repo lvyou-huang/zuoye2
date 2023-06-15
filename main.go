@@ -11,6 +11,7 @@ func InitPerson(name string) model.Person {
 		Atk:   10,
 	}
 }
+
 func main() {
 	person1 := InitPerson("亚索")
 	person2 := InitPerson("石头人")
